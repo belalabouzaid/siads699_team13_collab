@@ -29,10 +29,10 @@ The project aims to develop machine learning models which are capable of predict
 ## 3.2 Data
 Landsat-8 OLI/TIRS Collection 2 surface reflectance from USGS Earth Explorer were downloaded and processed using Python through the use of Google Earth Engine.  The soil moisture content was calculated using Landsat-8 data, with surface reflectance and temperature, within ArcGIS Pro.  Shuttle Radar Topography Mission (SRTM) digital terrain model data were downloaded from Esri. Precipitation data were referenced from local station data provided by the California Department of Water Resources.
 Detailed desctiption of features:
-Feature name: Description, source<br>
-Feature name: Description, source<br>
-Feature name: Description, source<br>
-Feature name: Description, source<br>
+Feature name: Description, source <br>
+Feature name: Description, source <br>
+Feature name: Description, source <br>
+Feature name: Description, source <br>
 ## 3.3 Region of Interest
 Two areas of interest were carefully selected to obtain the data to train, test and validate the machine learning models:
 ## 3.3.1 Barstow, CA: 
@@ -41,10 +41,10 @@ The main region of interest. The train/test data covers March-June 2017. The val
 The second region of interest. The train/test data covers May-July 2022. The validation area was the same as the train/test area for June-August 2021. 
 ## 3.3.3 Criteria
 The areas were selected based upon the following criteria:
-- Area with the lest amount of precipitation<br>
-- The training area was selected in the years when drought existed and cloud-free imagery was available<br>
-- Irrigated lands were avoided<br>
-- Areas with variable land cover was favored<br>
+- Area with the lest amount of precipitation <br>
+- The training area was selected in the years when drought existed and cloud-free imagery was available <br>
+- Irrigated lands were avoided <br>
+- Areas with variable land cover was favored <br>
   
 # 4. Running The Project
 The project code is fully developed in Python and has been run in Google Collab. Google Drive was used for data input/output storage. The project data was partially downloaded and processed from the Google Earth Engine API in python (code provided in this repository), and partially downloaded and processed in ESRI (outside the scope of this repository).
@@ -66,23 +66,23 @@ Google Earth Engine API: License, website
 Esri: License, website
 ## 6.4 Python Libraries:
 ### 6.4.1 Data download and processing
-- Lib: purpose<br>
-- Lib: purpose<br>
-- Lib: purpose<br>
+- Lib: purpose <br>
+- Lib: purpose <br>
+- Lib: purpose <br>
 ### 6.4.2 Visualization and exploratory data analysis
-- Lib: purpose<br>
-- Lib: purpose<br>
+- Lib: purpose <br>
+- Lib: purpose <br>
 ### 6.4.3 Model developing (training, validation, testing)
-- Lib: purpose<br>
+- Lib: purpose <br>
 ### 6.4.4 Remote computing resources
-- Lib: purpose<br>
+- Lib: purpose <br>
   
 See requirements.txt file
 
 # 7. Code Guide
-Notebook Name: Notebook Objective, requirements, notes<br>
-Notebook Name: Notebook Objective, requirements, notes<br>
-Notebook Name: Notebook Objective, requirements, notes<br>
-Notebook Name: Notebook Objective, requirements, notes<br>
+Notebook Name: Notebook Objective, requirements, notes <br>
+Notebook Name: Notebook Objective, requirements, notes <br>
+Notebook Name: Notebook Objective, requirements, notes <br>
+Notebook Name: Notebook Objective, requirements, notes <br>
 
 
