@@ -2,26 +2,26 @@
 
 # 1. Contents
 
-# 2- Credits
-Authors: Belal Khalil (bkhalil@umich.edu), Linda Sylvester (), Rhea Shetty ()
+# 2- Credits and contact information
+Authors: Belal Khalil (bkhalil@umich.edu), Linda Sylvester (lsylvest@umich.edu), Rhea Shetty (rhea.shetty11@gmail.com)
 
 # 3- Project Overview
 
-# 3.1 Introduction
+## 3.1 Introduction
 This is the github repository for the SIADS 699 Capstone Project titled Levaraging Satellite Images for Drought Prediction delivered by the authors mentioned above.
 The project aims to develop machine learning models which are capable of predicting agricultural drought conditions from satellite images. The model relies in its prediction on surface factors related to soil moisture as well as topographic factors that describe the geometry of the surface. The model does not rely on climate conditions as part of the input, reducing the uncertainty related to climate factors, but rather assumes that dry conditions are prevalent. Data and inputs are described in the following section (4- Data). Our inspiration for this study, is this analysis done in Korea- https://www-mdpi-com.proxy.lib.umich.edu/2073-4441/11/4/705
-# 3.2 Data
+## 3.2 Data
 Landsat-8 OLI/TIRS Collection 2 surface reflectance from USGS Earth Explorer were downloaded and processed using Python through the use of Google Earth Engine.  The soil moisture content was calculated using Landsat-8 data, with surface reflectance and temperature, within ArcGIS Pro.  Shuttle Radar Topography Mission (SRTM) digital terrain model data were downloaded from Esri. Precipitation data were referenced from local station data provided by the California Department of Water Resources.
 Detailed desctiption of features:
 Feature name: Description, source
 Feature name: Description, source
 Feature name: Description, source
 Feature name: Description, source
-# 3.3 Region of Interest
+## 3.3 Region of Interest
 Two areas of interest were carefully selected to obtain the data to train, test and validate the machine learning models:
-# 3.3.1 Barstow, CA: 
+## 3.3.1 Barstow, CA: 
 The main region of interest. The train/test data covers March-June 2017. The validation area was a larger area for March-June 2022.
-# 3.3.2 Three Rivers, CA:
+## 3.3.2 Three Rivers, CA:
 The second region of interest. The train/test data covers May-July 2022. The validation area was the same as the train/test area for June-August 2021. 
 The areas were selected based upon the following criteria:
 - Area with the lest amount of precipitation
@@ -40,23 +40,24 @@ This project several ways:
 - Referring to parts of the code as examples for relevant analyses and machine learning projecs
   
 # 6. Technology Stack
-# 6.1 Python coding environment: 
+## 6.1 Python coding environment: 
 Google Collab
-# 6.2 Data storage I/O: 
+## 6.2 Data storage I/O: 
 Google Drive
-# 6.3 Data Sources: 
-Google Earth Engine API, Esri
-# 6.4 Python Libraries:
-# 6.4.1 Data download and processing
+## 6.3 Data Sources: 
+Google Earth Engine API: License, website
+Esri: License, website
+## 6.4 Python Libraries:
+### 6.4.1 Data download and processing
 - Lib: purpose
 - Lib: purpose
 - Lib: purpose
-# 6.4.2 Visualization and exploratory data analysis
+### 6.4.2 Visualization and exploratory data analysis
 - Lib: purpose
 - Lib: purpose
-# 6.4.3 Model developing (training, validation, testing)
+### 6.4.3 Model developing (training, validation, testing)
 - Lib: purpose
-# 6.4.4 Remote computing resources
+### 6.4.4 Remote computing resources
 - Lib: purpose
   
 See requirements.txt file
