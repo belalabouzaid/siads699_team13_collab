@@ -1,8 +1,24 @@
 # Leveraging Satellite Images for Drought Prediction
 
-# 1. Contents
+# 1. Table of Contents
+1. [Table of Contents](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#1-contents)
+2. [Credits and Contact Information](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#2--credits-and-contact-information)
+3. [Project Overview](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#3--project-overview)
+  3.1 [Introduction](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#31-introduction)
+  3.2 [Data](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#32-data)
+  3.3 [Region of Interest](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#33-region-of-interest)
+  3.3.1 [Barstow, CA](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#331-barstow-ca)
+  3.3.2 [Three Rivers, CA](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#332-three-rivers-ca)
+  3.3.3 [Criteria](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#333-criteira)
+4. [Running the Project](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#4-running-the-project)
+5. [How To Use The Project](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#5-how-to-use-this-project)
+6. [Technology Stack](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#6-technology-stack)
+  6.1 [Python coding environment](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#61-python-coding-environment)
+  6.2 [Data storage I/O](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#62-data-storage-io)
+  6.3 [Python libraries](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#64-python-libraries)
+7. [Code Gide](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#7-code-guide)
 
-# 2- Credits and contact information
+# 2- Credits and Contact Information
 Authors: Belal Khalil (bkhalil@umich.edu), Linda Sylvester (lsylvest@umich.edu), Rhea Shetty (rhea.shetty11@gmail.com)
 
 # 3- Project Overview
@@ -23,17 +39,18 @@ Two areas of interest were carefully selected to obtain the data to train, test 
 The main region of interest. The train/test data covers March-June 2017. The validation area was a larger area for March-June 2022.
 ## 3.3.2 Three Rivers, CA:
 The second region of interest. The train/test data covers May-July 2022. The validation area was the same as the train/test area for June-August 2021. 
+## 3.3.3 Criteria
 The areas were selected based upon the following criteria:
 - Area with the lest amount of precipitation
 - The training area was selected in the years when drought existed and cloud-free imagery was available
 - Irrigated lands were avoided
 - Areas with variable land cover was favored
   
-# 4. Running the project
+# 4. Running The Project
 The project code is fully developed in Python and has been run in Google Collab. Google Drive was used for data input/output storage. The project data was partially downloaded and processed from the Google Earth Engine API in python (code provided in this repository), and partially downloaded and processed in ESRI (outside the scope of this repository).
 We recommend using the final processed .CSV files to run the project code, with no requirement to run the Google Earth Engine authentication, connection and data download sections. 
 
-# 5. How to use this project
+# 5. How To Use The Project
 This project several ways:
 - Running the code and following the workflow which we had used to build the machine learning models and conduct our analysis using the same data which we used
 - Running the code and machine learning models on other areas, while making sure new data does include the features outlined in the above 4.2 Data section
@@ -62,7 +79,7 @@ Esri: License, website
   
 See requirements.txt file
 
-# 7. Code Description
+# 7. Code Guide
 Notebook Name: Notebook Objective, requirements, notes
 Notebook Name: Notebook Objective, requirements, notes
 Notebook Name: Notebook Objective, requirements, notes
