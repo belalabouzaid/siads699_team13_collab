@@ -1,22 +1,22 @@
 # Leveraging Satellite Images for Drought Prediction
 
 # 1. Table of Contents
-1. [Table of Contents](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#1-contents)
-2. [Credits and Contact Information](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#2--credits-and-contact-information)
-3. [Project Overview](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#3--project-overview)
-  3.1 [Introduction](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#31-introduction)
-  3.2 [Data](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#32-data)
-  3.3 [Region of Interest](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#33-region-of-interest)
-  3.3.1 [Barstow, CA](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#331-barstow-ca)
-  3.3.2 [Three Rivers, CA](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#332-three-rivers-ca)
-  3.3.3 [Criteria](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#333-criteira)
-4. [Running the Project](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#4-running-the-project)
-5. [How To Use The Project](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#5-how-to-use-this-project)
-6. [Technology Stack](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#6-technology-stack)
-  6.1 [Python coding environment](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#61-python-coding-environment)
-  6.2 [Data storage I/O](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#62-data-storage-io)
-  6.3 [Python libraries](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#64-python-libraries)
-7. [Code Gide](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#7-code-guide)
+1. [Table of Contents](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#1-contents)<br>
+2. [Credits and Contact Information](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#2--credits-and-contact-information)<br>
+3. [Project Overview](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#3--project-overview)<br>
+  3.1 [Introduction](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#31-introduction)<br>
+  3.2 [Data](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#32-data)<br>
+  3.3 [Region of Interest](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#33-region-of-interest)<br>
+  3.3.1 [Barstow, CA](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#331-barstow-ca)<br>
+  3.3.2 [Three Rivers, CA](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#332-three-rivers-ca)<br>
+  3.3.3 [Criteria](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#333-criteira)<br>
+4. [Running the Project](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#4-running-the-project)<br>
+5. [How To Use The Project](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#5-how-to-use-this-project)<br>
+6. [Technology Stack](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#6-technology-stack)<br>
+  6.1 [Python coding environment](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#61-python-coding-environment)<br>
+  6.2 [Data storage I/O](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#62-data-storage-io)<br>
+  6.3 [Python libraries](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#64-python-libraries)<br>
+7. [Code Gide](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#7-code-guide)<br>
 
 # 2- Credits and Contact Information
 Authors: Belal Khalil (bkhalil@umich.edu), Linda Sylvester (lsylvest@umich.edu), Rhea Shetty (rhea.shetty11@gmail.com)
@@ -29,10 +29,10 @@ The project aims to develop machine learning models which are capable of predict
 ## 3.2 Data
 Landsat-8 OLI/TIRS Collection 2 surface reflectance from USGS Earth Explorer were downloaded and processed using Python through the use of Google Earth Engine.  The soil moisture content was calculated using Landsat-8 data, with surface reflectance and temperature, within ArcGIS Pro.  Shuttle Radar Topography Mission (SRTM) digital terrain model data were downloaded from Esri. Precipitation data were referenced from local station data provided by the California Department of Water Resources.
 Detailed desctiption of features:
-Feature name: Description, source
-Feature name: Description, source
-Feature name: Description, source
-Feature name: Description, source
+Feature name: Description, source<br>
+Feature name: Description, source<br>
+Feature name: Description, source<br>
+Feature name: Description, source<br>
 ## 3.3 Region of Interest
 Two areas of interest were carefully selected to obtain the data to train, test and validate the machine learning models:
 ## 3.3.1 Barstow, CA: 
@@ -41,10 +41,10 @@ The main region of interest. The train/test data covers March-June 2017. The val
 The second region of interest. The train/test data covers May-July 2022. The validation area was the same as the train/test area for June-August 2021. 
 ## 3.3.3 Criteria
 The areas were selected based upon the following criteria:
-- Area with the lest amount of precipitation
-- The training area was selected in the years when drought existed and cloud-free imagery was available
-- Irrigated lands were avoided
-- Areas with variable land cover was favored
+- Area with the lest amount of precipitation<br>
+- The training area was selected in the years when drought existed and cloud-free imagery was available<br>
+- Irrigated lands were avoided<br>
+- Areas with variable land cover was favored<br>
   
 # 4. Running The Project
 The project code is fully developed in Python and has been run in Google Collab. Google Drive was used for data input/output storage. The project data was partially downloaded and processed from the Google Earth Engine API in python (code provided in this repository), and partially downloaded and processed in ESRI (outside the scope of this repository).
@@ -66,23 +66,23 @@ Google Earth Engine API: License, website
 Esri: License, website
 ## 6.4 Python Libraries:
 ### 6.4.1 Data download and processing
-- Lib: purpose
-- Lib: purpose
-- Lib: purpose
+- Lib: purpose<br>
+- Lib: purpose<br>
+- Lib: purpose<br>
 ### 6.4.2 Visualization and exploratory data analysis
-- Lib: purpose
-- Lib: purpose
+- Lib: purpose<br>
+- Lib: purpose<br>
 ### 6.4.3 Model developing (training, validation, testing)
-- Lib: purpose
+- Lib: purpose<br>
 ### 6.4.4 Remote computing resources
-- Lib: purpose
+- Lib: purpose<br>
   
 See requirements.txt file
 
 # 7. Code Guide
-Notebook Name: Notebook Objective, requirements, notes
-Notebook Name: Notebook Objective, requirements, notes
-Notebook Name: Notebook Objective, requirements, notes
-Notebook Name: Notebook Objective, requirements, notes
+Notebook Name: Notebook Objective, requirements, notes<br>
+Notebook Name: Notebook Objective, requirements, notes<br>
+Notebook Name: Notebook Objective, requirements, notes<br>
+Notebook Name: Notebook Objective, requirements, notes<br>
 
 
