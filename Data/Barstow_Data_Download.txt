@@ -1,1 +1,3 @@
+Data download link from Google Drive for Training and Validation datasets covering Barstow, CA
 
+https://drive.google.com/drive/folders/179N20IdLtoo9jmSVJD_Exs2fxCEdoosL?usp=drive_link
