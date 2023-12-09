@@ -88,7 +88,7 @@ Google Collab
 Google Drive
 ## 6.3 Data Sources: 
 **Google Earth Engine API**  <br>
-License: Google Earth Engine does not require attribution but does remind users that the data accessed via the platform may require attribution. [License]([https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#1-contents](https://developers.google.com/earth-engine/reference#:~:text=You%20can%20 use%20this%20API,view%20documentation%20about%20specific%20datasets)) <br>
+License: Google Earth Engine does not require attribution but does remind users that the data accessed via the platform may require attribution. [License](https://developers.google.com/earth-engine/reference#:~:text=You%20can%20 use%20this%20API,view%20documentation%20about%20specific%20datasets) <br>
 Website: [website](https://earthengine.google.com/)  <br>
 **Esri**: <br>
 License: Private license purchase <br>
