@@ -87,27 +87,71 @@ Google Collab
 ## 6.2 Data storage I/O: 
 Google Drive
 ## 6.3 Data Sources: 
-Google Earth Engine API: License, website
-Esri: License, website
+**Google Earth Engine API**  <br>
+Licence: Google Earth Engine does not require attribution but does remind users that the data accessed via the platform may require attribution. https://developers.google.com/earth-engine/reference#:~:text=You%20can%20 use%20this%20API,view%20documentation%20about%20specific%20datasets. <br>
+Website: [website](https://earthengine.google.com/)  <br>
+**Esri**: <br>
+License: Private license purchase <br>
+Website: [website](www.esri.com)
 ## 6.4 Python Libraries:
 ### 6.4.1 Data download and processing
-- Lib: purpose <br>
-- Lib: purpose <br>
-- Lib: purpose <br>
+- ee  <br>
+- geemap  <br>
+- os  <br>
+- pandas  <br>
+- wxee  <br>
+- rioxarray  <br>
+- seaborn  <br>
+- matplotlib.pyplot  <br>
+- functools  <br>
 ### 6.4.2 Visualization and exploratory data analysis
-- Lib: purpose <br>
-- Lib: purpose <br>
+- seaborn <br>
+- matplotlib.pyplot <br>
+- numpy <br>
+- scipy.interpolate <br>
+- sklearn.preprocessing <br>
+- xgboost <br>
+- sklearn.decomposition <br>
 ### 6.4.3 Model developing (training, validation, testing)
-- Lib: purpose <br>
+- numpy <br>
+- sklearn <br>
+- LinearRegression <br>
+- sklearn.model_selection <br>
+- train_test_split <br>
+- sklearn.preprocessing <br>
+- StandardScaler <br>
+- sklearn.decomposition <br>
+- PCA <br>
+- xgboost <br>
+- RandomForestRegressor <br>
+- sklearn.metrics <br>
+- mean_absolute_error <br>
+- r2_score <br>
+- mean_squared_error <br>
+- GridSearchCV <br>
+- make_scorer <br>
+- sklearn.compose <br>
+- TransformedTargetRegressor <br>
 ### 6.4.4 Remote computing resources
-- Lib: purpose <br>
+- joblib <br>
+- dask.distributed <br>
+- Client <br>
   
 See requirements.txt file
 
 # 7. Code Guide
-Notebook Name: Notebook Objective, requirements, notes <br>
-Notebook Name: Notebook Objective, requirements, notes <br>
-Notebook Name: Notebook Objective, requirements, notes <br>
-Notebook Name: Notebook Objective, requirements, notes <br>
+1- Data_Download.ipynb: Data download and processing and export to .csv <br>
+ <br>
+2- EDA.ipynb: Exploratory data analysis <br>
+ <br>
+3- PCA.ipynb: PCA and feature importance <br>
+ <br>
+4- Train_Test_Models_Comparisons.ipynb: Compareing prediction model accuracies <br>
+ <br>
+5- XGB_Model_Tuning_DASK_with_Kfold.ipynb: XGBoost hyperparameter tuning <br>
+ <br>
+6- XGB_Model_evaluation.ipynb: Model evaluation for over/underfitting and data size <br>
+ <br>
+7- XGB_Model_Train_Test_Validate.ipynb: Model evaluation by validation using hidden data
 
 
