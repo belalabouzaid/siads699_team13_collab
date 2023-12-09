@@ -1,6 +1,8 @@
-# Leveraging Satellite Images for Drought Prediction
+<p align="center">
+  # Leveraging Satellite Images for Drought Prediction
 
 ![alt text](https://github.com/belalabouzaid/siads699_team13_collab/blob/main/Misc/Drought_prediction_area.png)
+</p>
 
 # 1. Table of Contents
 1. [Table of Contents](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#1-contents) <br>
