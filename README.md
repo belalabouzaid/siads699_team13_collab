@@ -31,17 +31,26 @@ The project aims to develop machine learning models which are capable of predict
 ## 3.2 Data
 Landsat-8 OLI/TIRS Collection 2 surface reflectance from USGS Earth Explorer were downloaded and processed using Python through the use of Google Earth Engine.  The soil moisture content was calculated using Landsat-8 data, with surface reflectance and temperature, within ArcGIS Pro.  Shuttle Radar Topography Mission (SRTM) digital terrain model data were downloaded from Esri. Precipitation data were referenced from local station data provided by the California Department of Water Resources.
 Detailed desctiption of features:
-Feature name: Description, source <br>
-Feature name: Description, source <br>
-Feature name: Description, source <br>
-Feature name: Description, source <br>
+EVI: [Vegetation variable] Enhanced Vegitation Index, calculated from bands 2, 4 and 5<br>
+NDVI: [Vegetation variable] Normalized Difference Vegetation Index, calculated from bands 4 and 5 <br>
+SAVI: [Vegetation variable] Soil-Adjusted Vegetation Index, calculated from bands 4 and 5 <br>
+MSAVI: [Vegetation variable] Modified Soil-Adjusted Vegetation Index, calculated from bands 4 and 5 <br>
+Slope: [Topography variable] obtained from SRTM DTM <br>
+Aspect: [Topography variable] obtained from SRTM DTM <br>
+NDMI: [Surface Water variable] Normalized Difference Moisture Index, calculated from bands 5 and 6 <br>
+MNDWI: [Surface Water variable] Modification of Normalized Difference Wetness Index, calculated from bands 3 and 6 <br>
+MSI: [Surface Water variable] Moisture Stress Index, calculated from bands 5 and 6 <br>
+NIR: [Thermal variable] Near Infrared, calculated from band 5 <br>
+SWIR1: [Thermal variable] Short-Wavelength Infrared 1, calculated from band 6 <br>
+SWIR2:[Thermal variable] Short-Wavelength Infrared 2, calculated from band 7 <br>
+TIR: [Thermal variable] Thermal Infrared (Surface Temperature), calculated from band 10 <br>
 ## 3.3 Region of Interest
 Two areas of interest were carefully selected to obtain the data to train, test and validate the machine learning models:
 ## 3.3.1 Barstow, CA: 
-The main region of interest. The train/test data covers March-June 2017. The validation area was a larger area for March-June 2022.
+The train/test data covers March-June 2017. The validation area was a larger area for March-June 2022.
 ## 3.3.2 Three Rivers, CA:
 The second region of interest. The train/test data covers May-July 2022. The validation area was the same as the train/test area for June-August 2021. 
-## 3.3.3 Criteria
+## 3.3.3 Area Selection Criteria
 The areas were selected based upon the following criteria:
 - Area with the lest amount of precipitation <br>
 - The training area was selected in the years when drought existed and cloud-free imagery was available <br>
