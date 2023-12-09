@@ -58,12 +58,14 @@ Detailed desctiption of features: <br>
 **TIR**: [Thermal variable] Thermal Infrared (Surface Temperature), calculated from band 10 <br>
 <br>
 ## 3.3 Region of Interest
-Two areas of interest were carefully selected to obtain the data to train, test and validate the machine learning models:
-## 3.3.1 Barstow, CA: 
+Three areas of interest were carefully selected to obtain the data to train, test and validate the machine learning models:
+## 3.3.1 Three Rivers, CA:
+The train/test data covers May-July 2022. The validation area was the same as the train/test area for June-August 2021.
+## 3.3.2 Mariposa, CA:
+The train/test data covers 2021. The validation area was the same as the train/test area for 2022.
+## 3.3.3 Barstow, CA: 
 The train/test data covers March-June 2017. The validation area was a larger area for March-June 2022.
-## 3.3.2 Three Rivers, CA:
-The second region of interest. The train/test data covers May-July 2022. The validation area was the same as the train/test area for June-August 2021. 
-## 3.3.3 Area Selection Criteria
+## 3.3.4 Area Selection Criteria
 The areas were selected based upon the following criteria:
 - Area with the lest amount of precipitation <br>
 - The training area was selected in the years when drought existed and cloud-free imagery was available <br>
