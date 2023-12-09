@@ -30,20 +30,33 @@ This is the github repository for the SIADS 699 Capstone Project titled Levaragi
 The project aims to develop machine learning models which are capable of predicting agricultural drought conditions from satellite images. The model relies in its prediction on surface factors related to soil moisture as well as topographic factors that describe the geometry of the surface. The model does not rely on climate conditions as part of the input, reducing the uncertainty related to climate factors, but rather assumes that dry conditions are prevalent. Data and inputs are described in the following section (4- Data). Our inspiration for this study, is this analysis done in Korea- https://www-mdpi-com.proxy.lib.umich.edu/2073-4441/11/4/705
 ## 3.2 Data
 Landsat-8 OLI/TIRS Collection 2 surface reflectance from USGS Earth Explorer were downloaded and processed using Python through the use of Google Earth Engine.  The soil moisture content was calculated using Landsat-8 data, with surface reflectance and temperature, within ArcGIS Pro.  Shuttle Radar Topography Mission (SRTM) digital terrain model data were downloaded from Esri. Precipitation data were referenced from local station data provided by the California Department of Water Resources.
-Detailed desctiption of features:
+Detailed desctiption of features: <br>
 EVI: [Vegetation variable] Enhanced Vegitation Index, calculated from bands 2, 4 and 5<br>
+<br>
 NDVI: [Vegetation variable] Normalized Difference Vegetation Index, calculated from bands 4 and 5 <br>
+<br>
 SAVI: [Vegetation variable] Soil-Adjusted Vegetation Index, calculated from bands 4 and 5 <br>
+<br>
 MSAVI: [Vegetation variable] Modified Soil-Adjusted Vegetation Index, calculated from bands 4 and 5 <br>
+<br>
 Slope: [Topography variable] obtained from SRTM DTM <br>
+<br>
 Aspect: [Topography variable] obtained from SRTM DTM <br>
+<br>
 NDMI: [Surface Water variable] Normalized Difference Moisture Index, calculated from bands 5 and 6 <br>
+<br>
 MNDWI: [Surface Water variable] Modification of Normalized Difference Wetness Index, calculated from bands 3 and 6 <br>
+<br>
 MSI: [Surface Water variable] Moisture Stress Index, calculated from bands 5 and 6 <br>
+<br>
 NIR: [Thermal variable] Near Infrared, calculated from band 5 <br>
+<br>
 SWIR1: [Thermal variable] Short-Wavelength Infrared 1, calculated from band 6 <br>
+<br>
 SWIR2:[Thermal variable] Short-Wavelength Infrared 2, calculated from band 7 <br>
+<br>
 TIR: [Thermal variable] Thermal Infrared (Surface Temperature), calculated from band 10 <br>
+<br>
 ## 3.3 Region of Interest
 Two areas of interest were carefully selected to obtain the data to train, test and validate the machine learning models:
 ## 3.3.1 Barstow, CA: 
