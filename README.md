@@ -140,18 +140,18 @@ Website: [website](www.esri.com)
 See requirements.txt file
 
 # 7. Code Guide
-1- Data_Download.ipynb: Data download and processing and export to .csv <br>
+**1- Data_Download.ipynb**: Data download and processing and export to .csv <br>
  <br>
-2- EDA.ipynb: Exploratory data analysis <br>
+**2- EDA.ipynb**: Exploratory data analysis <br>
  <br>
-3- PCA.ipynb: PCA and feature importance <br>
+**3- PCA.ipynb**: PCA and feature importance <br>
  <br>
-4- Train_Test_Models_Comparisons.ipynb: Compareing prediction model accuracies <br>
+**4- Train_Test_Models_Comparisons.ipynb**: Compareing prediction model accuracies <br>
  <br>
-5- XGB_Model_Tuning_DASK_with_Kfold.ipynb: XGBoost hyperparameter tuning <br>
+**5- XGB_Model_Tuning_DASK_with_Kfold.ipynb**: XGBoost hyperparameter tuning <br>
  <br>
-6- XGB_Model_evaluation.ipynb: Model evaluation for over/underfitting and data size <br>
+**6- XGB_Model_evaluation.ipynb**: Model evaluation for over/underfitting and data size <br>
  <br>
-7- XGB_Model_Train_Test_Validate.ipynb: Model evaluation by validation using hidden data
+**7- XGB_Model_Train_Test_Validate.ipynb**: Model evaluation by validation using hidden data
 
 
