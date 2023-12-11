@@ -8,8 +8,8 @@
   3.1 [Introduction](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#31-introduction) <br>
   3.2 [Data](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#32-data) <br>
   3.3 [Region of Interest](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#33-region-of-interest) <br>
-  3.3.1 [Barstow, CA](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#331-barstow-ca) <br>
-  3.3.2 [Three Rivers, CA](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#332-three-rivers-ca) <br>
+  3.3.1 [Three Rivers, CA](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#331-three-rivers-ca) <br>
+  3.3.2 [Mariposa, CA](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#332-mariposa-ca) <br>
   3.3.3 [Criteria](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#333-criteira) <br>
 4. [Running the Project](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#4-running-the-project) <br>
 5. [How To Use The Project](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#5-how-to-use-this-project) <br>
