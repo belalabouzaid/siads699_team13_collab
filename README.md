@@ -73,18 +73,18 @@ The areas were selected based upon the following criteria:
 - Areas with variable land cover was favored <br>
   
 # 4. Running The Project
-The project code is fully developed in Python and has been run in Google Collab. Google Drive was used for data input/output storage. The project data was partially downloaded and processed from the Google Earth Engine API in python (code provided in this repository), and partially downloaded and processed in ESRI (outside the scope of this repository).
-We recommend using the final processed .CSV files to run the project code, with no requirement to run the Google Earth Engine authentication, connection and data download sections. 
+The project code is fully developed in Python and has been run in Google Colab. Google Drive was used for data input/output storage. The project data was partially downloaded and processed from the Google Earth Engine API in python (code provided in this repository), and partially downloaded and processed in ESRI (outside the scope of this repository).
+We recommend using the final processed .CSV files to run the project code, with no requirement to run the Google Earth Engine authentication, connection and data download sections (Notebook 01-Data_Download). 
 
 # 5. How To Use The Project
 This project several ways:
 - Running the code and following the workflow which we had used to build the machine learning models and conduct our analysis using the same data which we used
-- Running the code and machine learning models on other areas, while making sure new data does include the features outlined in the above 4.2 Data section
+- Running the code and machine learning models on other areas, while making sure new data does include the features outlined in the above 3.2 Data section
 - Referring to parts of the code as examples for relevant analyses and machine learning projecs
   
 # 6. Technology Stack
 ## 6.1 Python coding environment: 
-Google Collab
+Google Colab
 ## 6.2 Data storage I/O: 
 Google Drive
 ## 6.3 Data Sources: 
