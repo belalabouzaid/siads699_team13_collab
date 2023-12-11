@@ -20,13 +20,13 @@
 7. [Code Guide](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#7-code-guide) <br>
 
 # 2- Credits and Contact Information
-Authors: Belal Khalil (bkhalil@umich.edu), Linda Sylvester (lsylvest@umich.edu), Rhea Shetty (rhea.shetty11@gmail.com)
+Authors: Belal Khalil (bkhalil@umich.edu), Linda Sylvester (lsylvest@umich.edu), Rhea Shetty (rnshetty@umich.edu)
 
 # 3- Project Overview
 
 ## 3.1 Introduction
 This is the github repository for the SIADS 699 Capstone Project titled Levaraging Satellite Images for Drought Prediction delivered by the authors mentioned above.
-The project aims to develop machine learning models which are capable of predicting agricultural drought conditions from satellite images. The model relies in its prediction on surface factors related to soil moisture as well as topographic factors that describe the geometry of the surface. The model does not rely on climate conditions as part of the input, reducing the uncertainty related to climate factors, but rather assumes that dry conditions are prevalent. Data and inputs are described in the following section (4- Data). Our inspiration for this study, is this analysis done in Korea- https://www-mdpi-com.proxy.lib.umich.edu/2073-4441/11/4/705
+The project aims to develop machine learning models which are capable of predicting agricultural drought conditions from satellite images. The model relies in its prediction on surface factors related to soil moisture as well as topographic factors that describe the geometry of the surface. The model does not rely on climate conditions as part of the input, reducing the uncertainty related to climate factors, but rather assumes that dry conditions are prevalent. Data and inputs are described in the following section (3.2 - Data). Our inspiration for this study, is this analysis done in Korea- https://www-mdpi-com.proxy.lib.umich.edu/2073-4441/11/4/705
 ## 3.2 Data
 Landsat-8 OLI/TIRS Collection 2 surface reflectance from USGS Earth Explorer were downloaded and processed using Python through the use of Google Earth Engine.  The soil moisture content was calculated using Landsat-8 data, with surface reflectance and temperature, within ArcGIS Pro.  Shuttle Radar Topography Mission (SRTM) digital terrain model data were downloaded from Esri. Precipitation data were referenced from local station data provided by the California Department of Water Resources.
 Detailed desctiption of features: <br>
@@ -43,29 +43,31 @@ Detailed desctiption of features: <br>
 <br>
 **Aspect**: [Topography variable] obtained from SRTM DTM <br>
 <br>
-**NDMI**: [Water variable] Normalized Difference Moisture Index, calculated from bands 5 and 6 <br>
+**NDMI**: [Surface Water variable] Normalized Difference Moisture Index, calculated from bands 5 and 6 <br>
 <br>
-**MNDWI**: [Water variable] Modification of Normalized Difference Wetness Index, calculated from bands 3 and 6 <br>
+**MNDWI**: [Surface Water variable] Modification of Normalized Difference Wetness Index, calculated from bands 3 and 6 <br>
 <br>
-**MSI**: [Water variable] Moisture Stress Index, calculated from bands 5 and 6 <br>
+**MSI**: [Surface Water variable] Moisture Stress Index, calculated from bands 5 and 6 <br>
 <br>
-**SR_B5**: [Thermal variable] Near Infrared, calculated from band 5 <br>
+**SR_B5**: [Thermal variable] Near Infrared, band 5 <br>
 <br>
-**SR_B6**: [Thermal variable] Short-Wavelength Infrared 1, calculated from band 6 <br>
+**SR_B6**: [Thermal variable] Short-Wavelength Infrared 1, band 6 <br>
 <br>
-**SR_B7**:[Thermal variable] Short-Wavelength Infrared 2, calculated from band 7 <br>
+**SR_B7**:[Thermal variable] Short-Wavelength Infrared 2, band 7 <br>
 <br>
-**ST_B10**: [Thermal variable] Thermal Infrared (Surface Temperature), calculated from band 10 <br>
+**ST_B10**: [Thermal variable] Thermal Infrared (Surface Temperature), band 10 <br>
+<br>
+**SMI**: [Target variable] Soil Moisture Index, calculated from Landsat-8 OLI/TIRS C2 L1 bands 4, 5, 10, and 11 <br>
 <br>
 ## 3.3 Region of Interest
 Three areas of interest were carefully selected to obtain the data to train, test and validate the machine learning models:
 ## 3.3.1 Three Rivers, CA:
 The train/test data covers May-July 2022. The validation area was the same as the train/test area for June-August 2021.
 ## 3.3.2 Mariposa, CA:
-The train/test data covers 2021. The validation area was the same as the train/test area for 2022.
+The train/test data covers May-July 2021. The validation area was the same as the train/test area for May-July 2022.
 ## 3.3.3 Area Selection Criteria
 The areas were selected based upon the following criteria:
-- Area with the lest amount of precipitation <br>
+- Area with the least amount of precipitation <br>
 - The training area was selected in the years when drought existed and cloud-free imagery was available <br>
 - Irrigated lands were avoided <br>
 - Areas with variable land cover was favored <br>
