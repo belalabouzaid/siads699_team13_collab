@@ -92,7 +92,7 @@ Google Drive
 License: Google Earth Engine does not require attribution but does remind users that the data accessed via the platform may require attribution. https://developers.google.com/earth-engine/reference#attribution-requirements <br>
 Website: https://earthengine.google.com/  <br>
 - **Esri** <br>
-License: Academic Licencse. Data downloaded from Esri's Image Service requires a subscription to view and be used for analysis. The raw data is not contained in this repository.  <br>
+License: Academic License. Data downloaded from Esri's Image Service requires a subscription to view and be used for analysis. The raw data is not contained in this repository.  <br>
 Website: www.esri.com
 - **Landsat-8 Imagery** <br>
 License: Public Domain, Landsat-8 data/imagery courtesy of the U.S. Geological Survey <br>
