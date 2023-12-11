@@ -17,7 +17,7 @@
   6.1 [Python coding environment](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#61-python-coding-environment) <br>
   6.2 [Data storage I/O](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#62-data-storage-io) <br>
   6.3 [Python libraries](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#64-python-libraries) <br>
-7. [Code Gide](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#7-code-guide) <br>
+7. [Code Guide](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#7-code-guide) <br>
 
 # 2- Credits and Contact Information
 Authors: Belal Khalil (bkhalil@umich.edu), Linda Sylvester (lsylvest@umich.edu), Rhea Shetty (rhea.shetty11@gmail.com)
@@ -31,7 +31,7 @@ The project aims to develop machine learning models which are capable of predict
 Landsat-8 OLI/TIRS Collection 2 surface reflectance from USGS Earth Explorer were downloaded and processed using Python through the use of Google Earth Engine.  The soil moisture content was calculated using Landsat-8 data, with surface reflectance and temperature, within ArcGIS Pro.  Shuttle Radar Topography Mission (SRTM) digital terrain model data were downloaded from Esri. Precipitation data were referenced from local station data provided by the California Department of Water Resources.
 Detailed desctiption of features: <br>
 <br>
-**EVI**: [Vegetation variable] Enhanced Vegitation Index, calculated from bands 2, 4 and 5<br>
+**EVI**: [Vegetation variable] Enhanced Vegetation Index, calculated from bands 2, 4 and 5<br>
 <br>
 **NDVI**: [Vegetation variable] Normalized Difference Vegetation Index, calculated from bands 4 and 5 <br>
 <br>
@@ -43,19 +43,19 @@ Detailed desctiption of features: <br>
 <br>
 **Aspect**: [Topography variable] obtained from SRTM DTM <br>
 <br>
-**NDMI**: [Surface Water variable] Normalized Difference Moisture Index, calculated from bands 5 and 6 <br>
+**NDMI**: [Water variable] Normalized Difference Moisture Index, calculated from bands 5 and 6 <br>
 <br>
-**MNDWI**: [Surface Water variable] Modification of Normalized Difference Wetness Index, calculated from bands 3 and 6 <br>
+**MNDWI**: [Water variable] Modification of Normalized Difference Wetness Index, calculated from bands 3 and 6 <br>
 <br>
-**MSI**: [Surface Water variable] Moisture Stress Index, calculated from bands 5 and 6 <br>
+**MSI**: [Water variable] Moisture Stress Index, calculated from bands 5 and 6 <br>
 <br>
-**NIR**: [Thermal variable] Near Infrared, calculated from band 5 <br>
+**SR_B5**: [Thermal variable] Near Infrared, calculated from band 5 <br>
 <br>
-**SWIR1**: [Thermal variable] Short-Wavelength Infrared 1, calculated from band 6 <br>
+**SR_B6**: [Thermal variable] Short-Wavelength Infrared 1, calculated from band 6 <br>
 <br>
-**SWIR2**:[Thermal variable] Short-Wavelength Infrared 2, calculated from band 7 <br>
+**SR_B7**:[Thermal variable] Short-Wavelength Infrared 2, calculated from band 7 <br>
 <br>
-**TIR**: [Thermal variable] Thermal Infrared (Surface Temperature), calculated from band 10 <br>
+**ST_B10**: [Thermal variable] Thermal Infrared (Surface Temperature), calculated from band 10 <br>
 <br>
 ## 3.3 Region of Interest
 Three areas of interest were carefully selected to obtain the data to train, test and validate the machine learning models:
