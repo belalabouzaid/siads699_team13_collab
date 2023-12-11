@@ -10,7 +10,7 @@
   3.3 [Region of Interest](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#33-region-of-interest) <br>
   3.3.1 [Three Rivers, CA](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#331-three-rivers-ca) <br>
   3.3.2 [Mariposa, CA](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#332-mariposa-ca) <br>
-  3.3.3 [Criteria](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#333-criteira) <br>
+  3.3.3 [Criteria](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#333-criteria) <br>
 4. [Running the Project](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#4-running-the-project) <br>
 5. [How To Use The Project](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#5-how-to-use-this-project) <br>
 6. [Technology Stack](https://github.com/belalabouzaid/siads699_team_collab/blob/main/README.md#6-technology-stack) <br>
@@ -92,7 +92,7 @@ Google Drive
 License: Google Earth Engine does not require attribution but does remind users that the data accessed via the platform may require attribution. https://developers.google.com/earth-engine/reference#attribution-requirements <br>
 Website: https://earthengine.google.com/  <br>
 - **Esri**: <br>
-License: Private Student Licencse <br>
+License: Academic Licencse <br>
 Website: www.esri.com
 - **Landsat-8 Imagery** <br>
 License: Public Domain, Landsat-8 data/imagery courtesy of the U.S. Geological Survey <br>
