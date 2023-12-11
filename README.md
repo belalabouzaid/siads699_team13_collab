@@ -63,9 +63,7 @@ Three areas of interest were carefully selected to obtain the data to train, tes
 The train/test data covers May-July 2022. The validation area was the same as the train/test area for June-August 2021.
 ## 3.3.2 Mariposa, CA:
 The train/test data covers 2021. The validation area was the same as the train/test area for 2022.
-## 3.3.3 Barstow, CA: 
-The train/test data covers March-June 2017. The validation area was a larger area for March-June 2022.
-## 3.3.4 Area Selection Criteria
+## 3.3.3 Area Selection Criteria
 The areas were selected based upon the following criteria:
 - Area with the lest amount of precipitation <br>
 - The training area was selected in the years when drought existed and cloud-free imagery was available <br>
@@ -141,18 +139,23 @@ Website: [website](www.esri.com)
 See requirements.txt file
 
 # 7. Code Guide
-**1- Data_Download.ipynb**: Data download and processing and export to .csv <br>
- <br>
-**2- EDA.ipynb**: Exploratory data analysis <br>
- <br>
-**3- PCA.ipynb**: PCA and feature importance <br>
- <br>
-**4- Train_Test_Models_Comparisons.ipynb**: Compareing prediction model accuracies <br>
- <br>
-**5- XGB_Model_Tuning_DASK_with_Kfold.ipynb**: XGBoost hyperparameter tuning <br>
- <br>
-**6- XGB_Model_evaluation.ipynb**: Model evaluation for over/underfitting and data size <br>
- <br>
-**7- XGB_Model_Train_Test_Validate.ipynb**: Model evaluation by validation using hidden data
+**01- Data_Download.ipynb**: Data download and processing and export to .csv <br>
+<br>
+**02- EDA.ipynb**: Exploratory data analysis <br>
+<br>
+**03a- PCA.ipynb**: PCA and feature importance by variance explained<br>
+<br>
+**03b- Train_Test_Models_Comparison.ipynb**: Compareing preliminary prediction model accuracies <br>
+<br>
+**04a- SDAP_using_RandomForest_Mariposa(trained).ipynb**: training RF model on Mariposa and validation <br>
+<br>
+**04b- SDAP_using_RandomForest_ThreeRivers.ipynb**: training RF model on Three Rivers and validation <br>
+<br>
+**05a- XGB_Model_Tuning_DASK_with_Kfold.ipynb**: XGBoost hyperparameter tuning <br>
+<br>
+**05b- XGB_Model_Train_Test_Validate.ipynb**: XGBoost model training (Mariposa and Three Rivers) and validation<br>
+<br>
+**06- SDAP_Validation_Maps.ipynb**: Visualization mapping of RF model SMI predictions, actual values and residuals <br>
+<br> 
 
 
