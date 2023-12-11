@@ -87,13 +87,19 @@ This project several ways:
 Google Colab
 ## 6.2 Data storage I/O: 
 Google Drive
-## 6.3 Data Sources: 
-**Google Earth Engine API**  <br>
+## 6.3 Data Sources and API: 
+- **Google Earth Engine API**  <br>
 License: Google Earth Engine does not require attribution but does remind users that the data accessed via the platform may require attribution. [License](https://developers.google.com/earth-engine/reference#:~:text=You%20can%20 use%20this%20API,view%20documentation%20about%20specific%20datasets) <br>
-Website: [website](https://earthengine.google.com/)  <br>
-**Esri**: <br>
+Website: https://earthengine.google.com/  <br>
+- **Esri**: <br>
 License: Private Student Licencse <br>
-Website: [website](www.esri.com)
+Website: www.esri.com
+- **Landsat-8 Imagery** <br>
+License: Public Domain, Landsat-8 data/imagery courtesy of the U.S. Geological Survey <br>
+Website: https://www.usgs.gov/landsat-missions/data <br>
+- **USGS EarthExplorer** <br>
+License: "Most of the images, data, and related products available from the USGS Earth Resources Observation and Science (EROS) Center, which also contains the NASA Land Processed Distributed Active Archive Center (LP DAAC), are federally created data and therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction." https://www.usgs.gov/centers/eros/data-citation <br>
+Website: https://earthexplorer.usgs.gov/
 ## 6.4 Python Libraries:
 ### 6.4.1 Data download and processing
 - ee  <br>
