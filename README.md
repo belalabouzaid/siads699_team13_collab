@@ -77,7 +77,7 @@ The project code is fully developed in Python and has been run in Google Colab. 
 We recommend using the final processed .CSV files to run the project code, with no requirement to run the Google Earth Engine authentication, connection and data download sections (Notebook 01-Data_Download). 
 
 # 5. How To Use The Project
-This project several ways:
+This project can be used in several ways:
 - Running the code and following the workflow which we had used to build the machine learning models and conduct our analysis using the same data which we used
 - Running the code and machine learning models on other areas, while making sure new data does include the features outlined in the above 3.2 Data section
 - Referring to parts of the code as examples for relevant analyses and machine learning projecs
