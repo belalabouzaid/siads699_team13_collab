@@ -60,7 +60,7 @@ Detailed desctiption of features: <br>
 **SMI**: [Target variable] Soil Moisture Index, calculated from Landsat-8 OLI/TIRS C2 L1 bands 4, 5, 10, and 11 <br>
 <br>
 ## 3.3 Region of Interest
-Three areas of interest were carefully selected to obtain the data to train, test and validate the machine learning models:
+Two areas of interest were carefully selected to obtain the data to train, test and validate the machine learning models:
 ## 3.3.1 Three Rivers, CA:
 The train/test data covers May-July 2022. The validation area was the same as the train/test area for June-August 2021.
 ## 3.3.2 Mariposa, CA:
